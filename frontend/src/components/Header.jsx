@@ -1,4 +1,4 @@
-// components/Header.js
+
 import React from "react";
 import { Box, Heading } from "@chakra-ui/react";
 
