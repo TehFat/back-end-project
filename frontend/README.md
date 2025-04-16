@@ -1,5 +1,6 @@
 # Prodcut Management System
-This is a Simple Web application for management of Products 
+This is a React-based Product Management App that allows users to add, view, edit, and delete products with a name, price, and image. It uses Chakra UI for styling, Axios for API calls, and connects to a backend built with Node.js, Express, and MongoDB. Products are managed in real-time using React state and displayed in a responsive grid. Users can upload images (converted to base64), and edit product details inline. The app includes smooth background animation, SEO optimization via react-helmet, and follows clean component structure and good React practices.
+
 ## Prerequisists How to run
 - NodeJS version 22.X
 
@@ -8,7 +9,7 @@ The webserver is ExpressJs running on NodeJS runtime engine. on the root folder 
 - `npm install`
 - `npm run dev`
   
-If successfully run, you'll see the `MongoDB connected: <MongoDB Server url>` message.
+If successfully run, you'll see the `MongoDB connected: <(via MongoDB Atlas)>` message.
 
 ###  How to run Frontend
 From the root folder of the repository change into `frontend` folder and run the following commands in the provided sequence
