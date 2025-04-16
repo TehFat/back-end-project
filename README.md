@@ -1,4 +1,4 @@
-# Prodcut Management System
+# Prodcut Management
 This is a React-based Product Management App that allows users to add, view, edit, and delete products with a name, price, and image. It uses Chakra UI for styling, Axios for API calls, and connects to a backend built with Node.js, Express, and MongoDB. Products are managed in real-time using React state and displayed in a responsive grid. Users can upload images (converted to base64), and edit product details inline. The app includes smooth background animation, SEO optimization via react-helmet, and follows clean component structure and good React practices.
 
 ## Prerequisites How to run
