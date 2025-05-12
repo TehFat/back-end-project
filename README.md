@@ -58,8 +58,36 @@ The API stores data in a MongoDB Atlas database via Mongoose. Restarting the ser
 To ensure accessibility, I used semantic HTML and Chakra UI components that support keyboard navigation and screen readers. I added clear labels to all form inputs and used aria-required attributes to indicate mandatory fields. Color contrast was improved using high-contrast combinations for readability. 
 For SEO, I used react-helmet to set the page title and meta description to help search engines understand the content of the page.
 
-### 5: Tracking
-To track usage statistics Google Tag Manager is integrated in the Application which is tracking Page Load and Navigation at the moment. The tracking can be extended to track user actions like Button and Link clicks.  
+
+## Tracking & Privacy
+
+I have implemented Google Tag Manager (GTM) to track key user interactions within the application, such as:
+
+Viewing the product list
+
+Adding new products
+
+Editing product details
+
+Deleting products
+
+This tracking helps me better understand how the app is used so I can improve usability and overall user experience.
+
+### Why I use GTM:
+I use GTM to:
+- Gain insights into which parts of the app users engage with the most
+- Identify potential usability issues or bugs
+- Improve the design and performance of the application
+
+### How I respect user privacy:
+- I do not collect any personally identifiable information (PII)
+- All data tracked is anonymous and used only for internal analysis
+- GTM is configured to only track essential events (no marketing or third-party ad scripts)
+- I follow GDPR principles by avoiding tracking methods that store personal data or use cookies for advertising
+- Users are made aware of tracking through this documentation and a clear description in the application if applicable
+
+
+
 
 ## 6: Security (OWASP)
 This project mitigates several common web vulnerabilities as identified by OWASP:
@@ -69,5 +97,7 @@ This project mitigates several common web vulnerabilities as identified by OWASP
 
 2. A06:2021 Vulnerable and Outdated Components    
    All the frontend libraries and packages are latest and has no vulnerable or outdated dependencies. This can be confirmed by running the `npm audit` which returns `found 0 vulnerabilities` message
+
+
 
 
